@@ -9,6 +9,7 @@ import FluidImage from '@atoms/FluidImage'
 import { Box } from 'rebass/styled-components'
 import styled from 'styled-components'
 import ContentVideo from '@components/ContentVideo'
+import Credits from '@components/Credits'
 
 import { device } from '@styles/utils'
 
@@ -78,6 +79,7 @@ class StoryblokEntry extends React.Component {
       isOnline,
       heroImage,
       heroImageXS,
+      credits
     } = this.state.story.content
     let { content } = this.state.story
     let { label } = this.state
@@ -154,6 +156,9 @@ class StoryblokEntry extends React.Component {
                 // console.log('Error; Item neither Image / Text / Video')
               }
             })}
+
+            {credits && <Credits text={credits} />}
+
           <WhiteSpace />
         </Section>
       </Layout>

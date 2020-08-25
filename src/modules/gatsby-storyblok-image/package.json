@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-storyblok-image",
+  "version": "0.2.2",
+  "description": "Adds gatsby-image to Gatsby & Storyblok as a content source.",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch",
+    "prepare": "cross-env NODE_ENV=production npm run build"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "storyblok",
+    "gatsby-image",
+    "source-storyblok"
+  ],
+  "author": "Thom Krupa <thom@bejamas.io>",
+  "homepage": "https://github.com/bejamas/gatsby-storyblok-image#readme",
+  "repository": "https://github.com/bejamas/gatsby-storyblok-image",
+  "bugs": {
+    "url": "https://github.com/bejamas/gatsby-storyblok-image/issues"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-gatsby-package": "^0.1.4",
+    "cross-env": "^5.0.5",
+    "microbundle": "^0.11.0"
+  }
+}

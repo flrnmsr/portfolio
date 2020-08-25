@@ -174,16 +174,14 @@ small {
 }
 
 
+    ::-moz-selection { /* Code for Firefox */
+      color: #bbb;
+      background: #000;
+    }
 
-<style>
-::-moz-selection { /* Code for Firefox */
-  color: #bbb;
-  background: #000;
-}
+    ::selection {
+      color: #bbb;
+      background: #000;
+    }
 
-::selection {
-  color: #bbb;
-  background: #000;
-}
-</style>
 `

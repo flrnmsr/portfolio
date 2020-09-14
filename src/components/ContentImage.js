@@ -10,7 +10,7 @@ const ImageWrapper = styled.div`
 
 `
 const Wrapper = styled.div`
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 
   @media ${device.lg} {
     margin-bottom: 24px;

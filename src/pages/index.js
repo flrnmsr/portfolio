@@ -37,11 +37,13 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 24px;
-  row-gap: 32px;
+  row-gap: 16px;
 
   @media ${device.lg} {
     padding: 0 0px;
     grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 32px;
   }
 `
 
@@ -136,7 +138,7 @@ class BlogIndex extends React.Component {
             boxShadow: '0px -1px rgba(255, 255, 255, 0.15)',
           }}
         ></div>
-        <Section title={labelContact} takeViewportHeight>
+        <Section title={labelContact} takeViewportHeight pb={[160, 160, 160, 160]}>
           <Box width={[1, 1, 1, 11 / 12]}>
             <Contact text={text_contact} />
             <Social linksList={social_links} />

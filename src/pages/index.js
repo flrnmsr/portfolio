@@ -18,11 +18,12 @@ import Social from '@components/Social'
 const ImageWrapper = styled.div`
   overflow: hidden;
   margin-bottom: 8px;
-  border-radius: 12px;
+  border-radius: 8px;
   transition: 0.3s;
 
   :hover {
-    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+
 	}
 
   @media ${device.lg} {
@@ -35,7 +36,7 @@ const ImageWrapper = styled.div`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: 16px;
+  column-gap: 24px;
   row-gap: 20px;
 
   @media ${device.lg} {
@@ -78,7 +79,7 @@ class BlogIndex extends React.Component {
           }}
         ></div>
 
-        <Section title={labelIntro} takeViewportHeight mb={[17]} mt={[16]}>
+        <Section title={labelIntro} takeViewportHeight mb={[25]} mt={[24]}>
           <Box width={[1, 1, 1, 11 / 12]}>
             <Introduction text={text_bio} />
           </Box>
@@ -89,7 +90,7 @@ class BlogIndex extends React.Component {
           style={{
             display: 'block',
             position: 'relative',
-            top: '-16px',
+            top: '-24px',
             height: '1px',
             backgroundColor: '#161616',
             boxShadow: '0px -1px rgba(255, 255, 255, 0.15)',
@@ -129,7 +130,7 @@ class BlogIndex extends React.Component {
           style={{
             display: 'block',
             position: 'relative',
-            top: '-16px',
+            top: '-24px',
             height: '1px',
             backgroundColor: '#161616',
             boxShadow: '0px -1px rgba(255, 255, 255, 0.15)',

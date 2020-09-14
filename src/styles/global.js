@@ -101,7 +101,7 @@ export default createGlobalStyle`
 
   @media ${device.lg} {
     font-family: ${props => props.theme.font.light};
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;

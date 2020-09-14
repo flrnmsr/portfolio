@@ -10,10 +10,10 @@ const ImageWrapper = styled.div`
 
 `
 const Wrapper = styled.div`
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 
   @media ${device.lg} {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 
     ${props => !props.isGridItem &&
     `

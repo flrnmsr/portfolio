@@ -49,8 +49,8 @@ const NavDesktop = () => (
 const NavMobile = () => (
   <Mobile>
   <Button to="/#intro">FM</Button>
-  <Button to="/#work">📁Selected Work</Button>
-  <Button to="/#info">📠Info</Button>
+  <Button to="/#work">📁 Selected Work</Button>
+  <Button to="/#info">📠 Info</Button>
   </Mobile>
 )
 

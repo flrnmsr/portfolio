@@ -45,7 +45,7 @@ const Title = styled.h1`
 const Content = styled(Box)`
   padding: 0 16px 0 16px;
   @media ${device.lg} {
-    padding: 0 16px 0 16px;
+    padding: 0 24px 0 24px;
   }
 `
 

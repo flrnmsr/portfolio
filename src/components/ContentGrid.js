@@ -7,7 +7,7 @@ import ContentImage from '@components/ContentImage'
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: 16px;
+  column-gap: 24px;
   row-gap: 0px;
 
   @media ${device.lg} {

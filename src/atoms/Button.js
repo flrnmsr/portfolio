@@ -17,15 +17,15 @@ const Button = styled.button`
   font-style: normal;
   letter-spacing: 0px;
 
+
   color: ${props => props.theme.color.black};
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.87);
   outline: none;
   cursor: pointer;
   border: none;
   border-radius: 22px;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0);
   transition: 0.4s;
-
 
 
   @media ${device.md} {
@@ -38,6 +38,8 @@ const Button = styled.button`
     font-style: normal;
     line-height: 1.06;
     letter-spacing: 0px;
+
+
 
   	}
 

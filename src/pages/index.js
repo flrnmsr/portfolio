@@ -143,7 +143,7 @@ class BlogIndex extends React.Component {
             <Contact text={text_contact} />
             <Social linksList={social_links} />
             <div>
-              <small>Typeface: FUNKTIONAL GROTESK by DAVIDE ROSETTO</small>
+              <small>Typeface: FUNKTIONAL GROTESK BY DAVIDE ROSETTO</small>
             </div>
             <div>
               <small>Development: DOMINIK SAID</small>

@@ -61,6 +61,16 @@ export default createGlobalStyle`
       letter-spacing: -0.6px;
     }
 
+    @media ${device.xl} {
+      font-family: ${props => props.theme.font.light};
+      font-size: 80px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.95;
+      letter-spacing: -0.6px;
+    }
+
   }
 
 

@@ -2,7 +2,7 @@ const sizes = {
   sm: '40em',
   md: '52em',
   lg: '64em',
-  xl: '75em',
+  xl: '92em',
 }
 
 export const device = {

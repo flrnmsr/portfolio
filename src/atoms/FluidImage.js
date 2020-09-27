@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   overflow: hidden;
 `
 
-const FluidImage = ({ imgUrl, maxWidth = 1156, hasGreyOutline, hasRoundedCorners, isGridItem = false, ...rest }) => {
+const FluidImage = ({ imgUrl, maxWidth = 8000, hasGreyOutline, hasRoundedCorners, isGridItem = false, ...rest }) => {
 
   if(isGridItem) {
     maxWidth = maxWidth / 2;

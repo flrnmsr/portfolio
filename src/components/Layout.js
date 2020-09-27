@@ -41,16 +41,16 @@ const Desktop = styled.nav`
 const NavDesktop = () => (
   <Desktop>
   <Button to="/#intro">Florian Moser</Button>
-  <Button to="/#work">📁 Selected Work</Button>
-  <Button to="/#info">📠 Info</Button>
+  <Button to="/#work">Selected Work</Button>
+  <Button to="/#info">Info</Button>
   </Desktop>
 )
 
 const NavMobile = () => (
   <Mobile>
   <Button to="/#intro">FM</Button>
-  <Button to="/#work">📁 Selected Work</Button>
-  <Button to="/#info">📠 Info</Button>
+  <Button to="/#work">Selected Work</Button>
+  <Button to="/#info">Info</Button>
   </Mobile>
 )
 

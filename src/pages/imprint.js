@@ -12,7 +12,7 @@ const Imprint = props => {
           <Box pb={[128]} width={[1, 1, 1, 12 / 12]}>
             <h2>
               Impressum gemäß § 5 TMG <br /> <br />
-              Adresse: Florian Moser, Donaustraße 16, 12043 Berlin <br />
+              Adresse: Florian Moser, Donaustraße 16, 12043 Berlin, Deutschland <br />
               E-Mail: moser.florian1@gmail.com <br />
               Website: florianmoser.com <br />
               Telefon: +49 173 691 4551 <br /> <br />

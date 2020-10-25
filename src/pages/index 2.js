@@ -76,17 +76,85 @@ class BlogIndex extends React.Component {
           style={{
             display: 'block',
             position: 'relative',
+            top: '-16px',
             visibility: 'hidden',
           }}
         ></div>
 
-        <Section mt={[24]}>
+        <Section title={labelIntro} takeViewportHeight mb={[25]} mt={[24]}>
           <Box width={[1, 1, 1, 11 / 12]}>
             <Introduction text={text_bio} />
           </Box>
         </Section>
 
+        <div
+          id="work"
+          style={{
+            display: 'block',
+            position: 'relative',
+            top: '-24px',
+            height: '1px',
+            backgroundColor: '#161616',
+            boxShadow: '0px -1px rgba(255, 255, 255, 0.15)',
+          }}
+        ></div>
 
+        <Section title={labelProjects} pb={[160, 160, 160, 160]}>
+          <Grid>
+            {projects.map((project, i) => {
+              const { featuredTitle, featuredImage } = project
+              return (
+                <Link to={`/projects/${project.slug}`} key={i}>
+                  <article key={i}>
+                    <section>
+                      {featuredImage && (
+                        <ImageWrapper>
+                          <FluidImage
+                            imgUrl={featuredImage}
+                            alt=""
+                            maxWidth={2000}
+                          />
+                        </ImageWrapper>
+                      )}
+                      <p>
+                        {featuredTitle}
+                      </p>
+                    </section>
+                  </article>
+                </Link>
+              )
+            })}
+          </Grid>
+        </Section>
+
+        <div
+          id="info"
+          style={{
+            display: 'block',
+            position: 'relative',
+            top: '-24px',
+            height: '1px',
+            backgroundColor: '#161616',
+            boxShadow: '0px -1px rgba(255, 255, 255, 0.15)',
+          }}
+        ></div>
+        <Section title={labelContact} takeViewportHeight pb={[160, 160, 160, 160]}>
+          <Box width={[1, 1, 1, 11 / 12]}>
+            <Contact text={text_contact} />
+            <Social linksList={social_links} />
+            <div>
+              <small>Typeface: FUNKTIONAL GROTESK BY DAVIDE ROSETTO</small>
+            </div>
+            <div>
+              <small>Development: DOMINIK SAID</small>
+            </div>
+            <div>
+              <small>
+                Legal: <Link to="/imprint">IMPRINT & DATA PRIVACY</Link>
+              </small>
+            </div>
+          </Box>
+        </Section>
       </Layout>
     )
   }

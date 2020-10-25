@@ -40,17 +40,17 @@ const Desktop = styled.nav`
 
 const NavDesktop = () => (
   <Desktop>
-  <a href="" class="class1">Florian Moser</a>
-  <a href="mailto:moser.florian1@googlemail.com" class="class1">Mail</a>
-  <a href="https://www.linkedin.com/in/f-moser/" class="class1">LinkedIn</a>
+  <Button to="/#intro">Florian Moser</Button>
+  <Button to="/#work">Selected Work</Button>
+  <Button to="/#info">Info</Button>
   </Desktop>
 )
 
 const NavMobile = () => (
   <Mobile>
-  <a href="" class="class1">FM</a>
-  <a href="mailto:moser.florian1@googlemail.com" class="class1">Mail</a>
-  <a href="https://www.linkedin.com/in/f-moser/" class="class1">LinkedIn</a>
+  <Button to="/#intro">FM</Button>
+  <Button to="/#work">Selected Work</Button>
+  <Button to="/#info">Info</Button>
   </Mobile>
 )
 

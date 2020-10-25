@@ -143,39 +143,22 @@ p {
 
 a.class1 {
   /* XS: */
-  margin-left: 0;
-  margin-right: 1px;
-  padding: 10px 12px 6px 12px;
-  height: 34px;
-  font-family: 'Grotesk-Book';
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 300;
+  font-family: ${props => props.theme.font.book};
+  font-size: 18px;
+  font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  letter-spacing: 0px;
+  line-height: 1.22;
+  letter-spacing: normal;
 
-
-  color: ${props => props.theme.color.black};
-  background-color: rgba(0, 0, 0, 0.87);
-  outline: none;
-  cursor: pointer;
-  border: none;
-  border-radius: 22px;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0);
-  transition: 0.4s;
-
-
-  @media ${device.md} {
-    height: 34px;
-    padding: 10px 12px 6px 12px;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 300;
+  @media ${device.lg} {
+    font-family: ${props => props.theme.font.book};
+    font-size: 20px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.06;
-    letter-spacing: 0px;
+    line-height: 1.22;
+    letter-spacing: normal;
   }
 }
 

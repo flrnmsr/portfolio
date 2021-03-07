@@ -43,6 +43,7 @@ const NavDesktop = () => (
   <a href="" class="class1">Florian Moser</a>
   <a href="mailto:moser.florian1@googlemail.com" class="class1">Mail</a>
   <a href="https://www.linkedin.com/in/f-moser/" class="class1">LinkedIn</a>
+  <a href="https://www.are.na/florian-moser" class="class1">Are.na</a>
   </Desktop>
 )
 
@@ -51,6 +52,7 @@ const NavMobile = () => (
   <a href="" class="class1">FM</a>
   <a href="mailto:moser.florian1@googlemail.com" class="class1">Mail</a>
   <a href="https://www.linkedin.com/in/f-moser/" class="class1">LinkedIn</a>
+  <a href="https://www.are.na/florian-moser" class="class1">Are.na</a>
   </Mobile>
 )
 
